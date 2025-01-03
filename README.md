@@ -1,0 +1,3 @@
+# Elixir Enum.reduce Unexpected Behavior
+
+This example demonstrates a potential issue when using `Enum.reduce` in Elixir. The reduce function only returns a value if an element in the list satisfies the condition (`x > 3`).  If no element meets this condition, the reduce function does not return a value and causes a runtime error. This is easy to miss if you're not expecting this type of conditional behavior.
